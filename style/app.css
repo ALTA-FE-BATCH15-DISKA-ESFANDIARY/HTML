@@ -1,21 +1,30 @@
+@font-face {
+   font-family: Muli-light;
+   src: url(./font/muli/Muli-Light.ttf);
+}
+@font-face {
+   font-family:Muli-bold;
+   src: url(./font/muli/Muli-Bold.ttf);
+}
+
 .background-image{
- background-image: url("./images/bg-img(1).png");
+ background-image: url("/images/bgimage.png");
  background-size: 100%;
  background-position: center;
  width:100%;
  height: 700px;
- margin: 0px;
- padding: 0px;
 } 
 
 html, body {
    max-width: 100%;
    overflow-x: hidden;
+   font-family:'Roboto',Muli-light,Muli-bold;
 }
 
 .navbar {
     padding-bottom: 10px;
     background-color: white;
+    color:#19345E;
 
 
 }
@@ -177,6 +186,7 @@ h2{
 
 .list{
    margin-left: -40px;
+   text-decoration: dotted;
 }
 
 .judul{
@@ -256,6 +266,10 @@ td{
    color: #19345E;
 }
 
-.navbar{
+.homes{
    color: #19345E;
+}
+
+.tentangitu{
+   color: #F47522;
 }
