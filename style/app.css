@@ -173,8 +173,11 @@ h2{
    margin-top: 25px;
 }
 .atas{
-   background-color: whitesmoke;
+   background-color: #F4F7FC;
    padding-block: 30px;
+}
+.text-primary{
+   color: #19345E;
 }
 
 .pdk{
@@ -218,7 +221,7 @@ td{
 
 .facebook{
    margin-left: 320px;
-   height: 30px;
+   height: 10px;
 }
 
 .twitter{
@@ -246,6 +249,8 @@ td{
    color: white;
    text-align: right;
    margin-left: 60px;
+   display: flex;
+   flex: row;
 }
 
 .home{
@@ -282,4 +287,8 @@ td{
    border-right: 1px black solid;
    height: 170px;
    width: 0px;
+}
+
+.custom-bg-color{
+   color: #F4F7FC;
 }
